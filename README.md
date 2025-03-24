@@ -61,4 +61,4 @@ open index.html  # (or double-click index.html)
 
 <hr>
 
-<p align="center" style="font-size: 20px;">🔗 <strong>Follow me on GitHub:</strong> <a href="https://github.com/adityaandotra0">Your GitHub Profile</a> 🚀</p>
+<p align="center" style="font-size: 20px;">🔗 <strong>Follow me on GitHub:</strong> <a href="https://github.com/adityaandotra0">My GitHub Profile</a> 🚀</p>
