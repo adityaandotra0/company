@@ -41,6 +41,7 @@ open index.html  # (or double-click index.html)
 <hr>
 
 <h2 style="font-size: 28px;">🌍 Live Demo</h2>
+<p align="center" style="font-size: 20px;">🔗 <strong>Visit website:</strong> <a href="https://adityaandotra0.github.io/company/">click to visit</a> 🚀</p>
 <blockquote style="font-size: 18px;">You can host this website using <strong>GitHub Pages</strong> or any static web hosting service.</blockquote>
 
 <hr>
