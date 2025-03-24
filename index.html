@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #0073e6;
+            color: white;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Novanectar Project</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>Welcome to my company website. Here you will find details about my skills, projects, and experience.</p>
+    </section>
+    
+    <section id="projects" class="section">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A fully responsive portfolio website showcasing my skills, experience, and projects. Built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>E-commerce Platform</h3>
+                <p>Developed an e-commerce platform with user authentication, product management, and a secure payment gateway using React and Node.js.</p>
+            </div>
+            <div class="project">
+                <h3>Blog CMS</h3>
+                <p>A content management system for bloggers to create, edit, and publish articles with an admin panel. Built using Django and PostgreSQL.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <p>Phone: +919797563173</p>
+        <p>Email: adityaandotra7@gmail.com</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Aditya Andotra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
